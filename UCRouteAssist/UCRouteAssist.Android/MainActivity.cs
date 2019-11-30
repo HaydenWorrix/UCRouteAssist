@@ -19,6 +19,7 @@ namespace UCRouteAssist.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            SetContentView(Resource.Layout.map_layout);
             LoadApplication(new App());
         }
     }
